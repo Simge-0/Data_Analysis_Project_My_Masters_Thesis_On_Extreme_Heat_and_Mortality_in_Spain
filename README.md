@@ -34,6 +34,12 @@ Python, pandas, numpy, statsmodels, matplotlib, geopandas
 
 ## Repository Structure
 
+project/
+├── scripts/
+├── data/
+├── outputs/
+└── README.md
+
 - Project_Master_Thesis/
 - Data/
 - cleaned_dataset_for_the_main_result.csv
