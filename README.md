@@ -22,10 +22,10 @@ Python, pandas, numpy, statsmodels, matplotlib, geopandas
 
 ## Key Methods
 
-Fixed effects regression
-Panel data analysis
-Feature engineering
-Spatial visualization
+- Fixed effects regression
+- Panel data analysis
+- Feature engineering
+- Spatial visualization
 
 ## Key Findings
 
