@@ -34,72 +34,33 @@ Python, pandas, numpy, statsmodels, matplotlib, geopandas
 
 ## Repository Structure
 
-Project_Master_Thesis/
-|
-|
-|Data/
-cleaned_dataset_for_the_main_result.csv
-|
-|
-|Outputs/
-|
-|tables/
-Main_results_table.png
-Demographic_results_table.png
-|
-|maps/
-Weather_stations_coverage_per_province.png
-Average_monthly_mortality_rate_by_province.png
-|
-|
-|Scripts/
-|
-|01_api_collection/
-PART_1_api.py
-|
-|02_cleaning/
-PART_2_weather_cleaning.py
-PART_3_mortality_cleaning.py
-PART_4_population_cleaning.py
-|
-|03_building_analysis_dataset/
-PART_5_demographics_merging.py
-PART_6_panel_construction.py
-PART_7_merging_all.py
-|
-|04_regression_analysis/
-PART_8_fixed_effects_analysis.py
-PART_9_demographic_analysis.py
-|
-|05_visualization/
-PART_10_geographic_maps.py
-|
-|
-|README.md
-|
-|
-
-
-project/
-│
-├── data/
-│   ├── raw/
-│   └── processed/
-│
-├── outputs/
-│   ├── figures/
-│   └── maps/
-│
-├── scripts/
-│   ├── 01_api_collection.py
-│   ├── 02_weather_cleaning.py
-│   ├── 03_demographic_mortality_cleaning.py
-│   ├── 04_build_analysis_dataset.py
-│   ├── 05_fixed_effects_analysis.py
-│   └── 06_visualizations.py
-│
-├── README.md
-└── requirements.txt
+- Project_Master_Thesis/
+- Data/
+- cleaned_dataset_for_the_main_result.csv
+- Outputs/
+- tables/
+- Main_results_table.png
+- Demographic_results_table.png
+- maps/
+- Weather_stations_coverage_per_province.png
+- Average_monthly_mortality_rate_by_province.png
+- Scripts/
+- 01_api_collection/
+- PART_1_api.py
+- 02_cleaning/
+- PART_2_weather_cleaning.py
+- PART_3_mortality_cleaning.py
+- PART_4_population_cleaning.py
+- 03_building_analysis_dataset/
+- PART_5_demographics_merging.py
+- PART_6_panel_construction.py
+- PART_7_merging_all.py
+- 04_regression_analysis/
+- PART_8_fixed_effects_analysis.py
+- PART_9_demographic_analysis.py
+- 05_visualization/
+- PART_10_geographic_maps.py
+- README.md
 
 
 ## Data Availability
