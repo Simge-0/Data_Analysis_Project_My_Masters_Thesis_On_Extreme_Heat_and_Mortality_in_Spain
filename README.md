@@ -34,11 +34,13 @@ Python, pandas, numpy, statsmodels, matplotlib, geopandas
 
 ## Repository Structure
 
+...
 project/
 ├── scripts/
 ├── data/
 ├── outputs/
 └── README.md
+...
 
 - Project_Master_Thesis/
 - Data/
