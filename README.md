@@ -10,7 +10,7 @@ This project analyzes the relationship between extreme heat exposure and mortali
 
 ## Data Scale
 
-The project integrates multiple data sources and produces a final panel dataset of approximately:
+The project integrates multiple data sources and produces a final panel dataset of:
 - ~400,000+ rows (observations)
 - 165 columns (variables)
 The final dataset is structured as a panel at the region × month × age × sex level.
@@ -25,7 +25,7 @@ The final dataset is structured as a panel at the region × month × age × sex 
 
 ## Tools used
 
-Python, pandas, numpy, statsmodels, matplotlib, geopandas (GIS)
+Python, pandas, numpy, statsmodels, matplotlib, geopandas
 
 ## Skills Demonstrated
 
