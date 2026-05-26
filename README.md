@@ -10,10 +10,13 @@ This project analyzes the relationship between extreme heat exposure and mortali
 
 ## Data Scale
 
-The project integrates multiple data sources and produces a final panel dataset of:
-- ~400,000+ rows (observations)
+The project integrates multiple data sources and produces a large panel dataset containing demographic and mortality information across regions, months, age groups, and sex categories.
+
+The full panel contains approximately:
+- ~400,000+ rows
 - 165 columns (variables)
-The final dataset is structured as a panel at the region × month × age × sex level.
+
+The weather-linked analytical subset used for the main regression analysis covers the 2017–2019 period.
 
 ## Project Workflow
 
@@ -40,7 +43,7 @@ Python, pandas, numpy, statsmodels, matplotlib, geopandas
 ## Key Variables
 
 The final dataset includes constructed variables such as:
-- Extreme temperature indicators (e.g. high percentile thresholds)
+- Extreme temperature indicators (e.g. 95th percentile thresholds)
 - Population-based mortality rates
 - Mortality outcomes disaggregated by age group and sex
 
@@ -60,7 +63,7 @@ The final dataset includes constructed variables such as:
 Project_Master_Thesis/
 
 Data/
-- cleaned_dataset_for_the_main_result.csv
+- cleaned_dataset_sample.csv
 
 Outputs/
 
@@ -90,8 +93,7 @@ README.md
 ## Data Availability
 
 This repository contains a curated version of the thesis analysis workflow.
-
-Only a cleaned final analysis dataset (`cleaned_dataset_for_the_main_result.csv`) is included and serves as the basis for the main regression analysis.
+Only a sample cleaned dataset (`cleaned_dataset_sample.csv`) covering the 2017–2019 analysis period is included for demonstration purposes and serves as the basis for the main regression analysis.
 
 Due to dataset size and processing complexity, not all raw, intermediate, robustness-check, demographic-analysis, and geospatial files used in the full thesis are included in this repository. 
 
