@@ -32,12 +32,12 @@ Python (pandas, numpy, statsmodels, matplotlib, geopandas)
 
 ## Skills Demonstrated
 
-- Panel data construction (region × time × demographic groups)
-- Fixed effects regression modeling
-- Feature engineering of climate exposure indicators
 - Large-scale data integration from administrative sources
 - API-based data collection and batch processing (~5,000+ files)
+- Feature engineering of climate exposure indicators
 - Data cleaning and transformation at scale
+- Panel data construction (region × time × demographic groups)
+- Fixed effects regression modeling
 - Spatial visualization and mapping
 
 ## Key Variables
