@@ -12,7 +12,7 @@ This project analyzes the relationship between extreme heat exposure and mortali
 
 The project integrates multiple data sources and produces a large panel dataset containing demographic and mortality information across regions, months, age groups, and sex categories.
 
-The full panel contains approximately:
+The final panel contains approximately:
 - ~400,000+ rows
 - 165 columns (variables)
 
